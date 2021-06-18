@@ -1,0 +1,13 @@
+.values_tweek{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    align-items:center ;
+    margin-top:10px;
+} 
+
+
+
+.active_class:{
+    background-color: green;
+}
