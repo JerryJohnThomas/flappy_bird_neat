@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# Genetic Algo Text Matching
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was hugely mainly by the Coding Train[Youtube Channel](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw), other inspirators include Code Bullet[Youtube Channel](https://www.youtube.com/channel/UC0e3QhIYukixgh5VVpKHH9Q) and Tech with Tim(https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg)
+
+Click here for a [live demonstration](https://romantic-bhaskara-dc0b13.netlify.app/)
+
+This Project uses an implementation of Neuro Evolution
+* calculates fitness
+* repopulates/copy
+* mutates
+* repeat
+
+The fitness Calculation is in the order of 2 and finding the parents is using a normal fitness methodology.
+## Multiple insights
+* the screen size is important as the first pipe comes from the right most part of the screen , so more the time the first pipe needs to reach the birds at the left end, more the scores will be horrible as the birds will think simply doing anything will work, hence on laptop full screen it will take huge generations in the order of 500 to train a good brain, but if you do it in a mobile sized browser it will be trained in a couple of 10 , 30 generations
+* the jump paramter hughely influenced, the best position seemed to be a gentle jump in opposed to a strong jump i had in the begining
+* 2, 3 cross over methods are demonstrated in the code, one is copy and mutate only (demonstrated by daniel shiffman) seems to be working well in this case as the game does not require high tuning, the traditional cross over is also implemented in code.
+
+
+## side note:
+* all textures all included for a future revamp if necessary.
+* level 6 is default level 8 is for very narrow pipe distance
+*  p5 went crazy with pipe textures usually so better to train with show_pipes off as in the front end, (right now texture for pipes has been disabled, but it is present in code)
 
 ## Available Scripts
 
 In the project directory, you can run:
-
-### `npm start`
-
+### `npm install`
+### `npm run start`
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
