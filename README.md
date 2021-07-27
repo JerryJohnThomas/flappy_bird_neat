@@ -1,4 +1,4 @@
-# Genetic Algo Text Matching
+# Genetic Algo Flappy Bird
 
 This project was hugely inspired again by the one and only Daniel Shiffman[Youtube Channel](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw), other inspirators include [Code Bullet](https://www.youtube.com/channel/UC0e3QhIYukixgh5VVpKHH9Q) and [Tech with Tim](https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg)
 
